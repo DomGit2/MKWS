@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ---- Generated outputs ----
+# These are produced by `python ignition_delay.py`.
+# Remove the lines below if you WANT the figures/CSV tracked in the repo
+# (e.g. so they render on GitHub or feed the report).
+fig*.png
+emissions_table.csv
+
+# ---- LaTeX build artifacts ----
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
